@@ -1,0 +1,74 @@
+#Title {
+    font-size: 70px;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+#buttons {
+    text-align: right;
+    padding-top: 30px;
+}
+#Home {
+    border: none;
+    background-color: white;
+    font-size: 40px;
+    float: left;
+    transition-duration: 0.3s;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: relative;
+}
+#Blog {
+    border: none;
+    background-color: white;
+    font-size: 40px;
+    float: left;
+    transition-duration: 0.3s;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: relative;
+}
+#Home:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 7px;
+    background: red;
+    transition: all 0.3s ease;
+
+}
+#Home:hover:after{
+    width: 100%;
+}
+#Home:hover {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+#Blog:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 7px;
+    background: red;
+    transition: all 0.3s ease;
+
+}
+#Blog:hover:after{
+    width: 100%;
+}
+#Blog:hover {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+#TLO {
+    text-align: center;
+}
+#BackGround {
+    background-repeat: no-repeat;
+    background-size: 1920px, 960px;
+}
